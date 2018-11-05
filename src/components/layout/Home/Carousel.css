@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+.carousel-container {
+  margin: 0;
+  padding: 0;
+}
+
+.carouselImage {
+  height: 100vh;
+  z-index: 0;
+}
+
+#bg-overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  height: inherit;
+  width: 100%;
+  z-index: 2;
+}
+
+.carousel-home {
+  position: absolute;
+  text-transform: capitalize;
+  text-align: center;
+  color: white;
+  top: 35%;
+  left: 0%;
+  width: 100%;
+}
+
+.header-button {
+  margin: 2rem;
+}
+
+.header-button .button {
+  margin-left: 1rem;
+}
+
+#button {
+  margin-left: 1rem;
+}
+
+.social-networks i {
+  font-size: 24px;
+}

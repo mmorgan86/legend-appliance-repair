@@ -1,0 +1,50 @@
+#navItems {
+  text-align: center;
+}
+
+.nav-item:hover,
+.nav-item:active {
+  background-color: #db7a24;
+}
+
+.navbar-brand {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.nav-item {
+  font-family: 'Raleway', sans-serif;
+}
+
+.nav-item i {
+  color: #db7a24;
+}
+
+.nav-item:hover i,
+.nav-item i:active {
+  color: white;
+}
+
+.company-info ul li {
+  list-style: none;
+  display: inline;
+  margin-left: 10px;
+}
+.company-phone {
+  color: #db7a24;
+}
+
+.company-phone:hover {
+  color: gray;
+}
+
+.social-networks {
+  text-align: center;
+}
+
+.navbar-toggler {
+  margin: 0;
+  height: 50x;
+  padding: 0;
+}
